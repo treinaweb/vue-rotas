@@ -1,11 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h1>Essa é a página App.vue</h1>
+    <div>
+        <router-view />
+    </div>
 </template>
-
-<style scoped>
-
-</style>
