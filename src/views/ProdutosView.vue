@@ -14,6 +14,11 @@ const produtos = ref([
         id: 3,
         nome: "Produto 3",
     },
+    {
+        id: 4,
+        nome: "Produto 4",
+    },
+    
 ]);
 </script>
 
@@ -24,7 +29,9 @@ const produtos = ref([
         <ul>
             <li v-for="produto in produtos" :key="produto.id">
                 <h2>{{ produto.nome }}</h2>
-                <router-link>Ver detalhes</router-link>
+                <router-link :to="`/produtos/${produto.id}`"
+                    >Ver detalhes</router-link
+                >
             </li>
         </ul>
     </div>
