@@ -11,6 +11,9 @@
                 <li>
                     <RouterLink to="/sobre">Sobre</RouterLink>
                 </li>
+                <li>
+                    <RouterLink to="/produtos">Produtos</RouterLink>
+                </li>
             </ul>
         </nav>
     </header>
