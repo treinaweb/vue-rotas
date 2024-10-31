@@ -41,4 +41,8 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
+.router-link-active {
+    color: rgb(2, 244, 54);
+}
 </style>
