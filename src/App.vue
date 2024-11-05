@@ -6,10 +6,10 @@
                     <RouterLink to="/">Home</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/contato">Contato</RouterLink>
+                    <RouterLink :to="{ name: 'Contato' }">Contato</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/sobre">Sobre</RouterLink>
+                    <RouterLink :to="{ name: 'Sobre' }">Sobre</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/produtos">Produtos</RouterLink>
